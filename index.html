@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ApexEdit | Web Design & Brand Scaling</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- HERO -->
+  <header class="hero">
+    <nav class="nav">
+      <h1 class="logo-text">Apex<span>Edit</span></h1>
+      <a href="#contact" class="btn">Contact</a>
+    </nav>
+
+    <div class="hero-content">
+      <img src="logo.png" alt="ApexEdit Logo" class="hero-logo">
+      <h2>Web Design & Freelance Brand Scaling</h2>
+      <p>
+        We help freelancers and businesses build powerful online presence
+        through modern web design and strategic brand scaling.
+      </p>
+      <a href="#contact" class="btn primary">Work With Us</a>
+    </div>
+  </header>
+
+  <!-- ABOUT -->
+  <section class="about">
+    <h2>What We Do</h2>
+    <p>
+      ApexEdit specializes in clean, high-converting websites and scalable
+      brand systems for freelancers and growing businesses.
+      Our mission is to turn your ideas into a strong digital identity
+      that attracts clients and builds trust.
+    </p>
+
+    <div class="services">
+      <div class="card">
+        <h3>Web Design</h3>
+        <p>Modern, responsive and conversion-focused websites.</p>
+      </div>
+      <div class="card">
+        <h3>Brand Scaling</h3>
+        <p>Helping freelancers grow into strong, recognizable brands.</p>
+      </div>
+      <div class="card">
+        <h3>Optimization</h3>
+        <p>Performance, UX and clarity for better results.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <p>
+      Have a question or want to work with us?
+      Send us a message and we’ll reply shortly.
+    </p>
+
+    <div class="contact-info">
+      <p>📧 apexeditreal@gmail.com</p>
+      <p>📸 Instagram: <a href="https://instagram.com/apexedit25" target="_blank">@apexedit25</a></p>
+    </div>
+
+    <form id="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn primary">Send Message</button>
+    </form>
+
+    <p id="status"></p>
+  </section>
+
+  <footer>
+    <p>© 2025 ApexEdit. All rights reserved.</p>
+  </footer>
+
+  <!-- EmailJS -->
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
